@@ -1,5 +1,5 @@
 import datetime as _datetime
-from time_mock import time_mocked
+from time_mock import time_mocked, setup
 
 class datetime_mocked(_datetime.datetime):
     @classmethod
