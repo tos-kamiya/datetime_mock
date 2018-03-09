@@ -1,9 +1,5 @@
-import importlib
-import sys
-import os.path as os_path
-
-import time_mock
-import datetime_mock
+import time_mock  # replace time.time with its mock method.
+import datetime_mock  # replace datetime.datetime.now with its mock method.
 
 time_mock.setup(1520582268, 1)
 
