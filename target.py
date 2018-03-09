@@ -1,8 +1,6 @@
 import datetime
 
 def main():
-    now = datetime.datetime.now()
-    print(now)
-
-    now = datetime.datetime.now()
-    print(now)
+    for t in range(10):
+        now = datetime.datetime.now()
+        print(now)
